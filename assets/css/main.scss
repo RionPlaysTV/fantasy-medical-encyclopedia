@@ -125,22 +125,31 @@ h3 {
   border-left: 4px solid;
   border-radius: 0 4px 4px 0;
   background-color: var(--background-light);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-color);
 }
 
 .medical-alert.warning {
   border-color: var(--warning-color);
   background-color: #fffbeb;
+  color: #744210;
+  border-left-color: var(--warning-color);
 }
 
 .medical-alert.danger {
   border-color: var(--danger-color);
   background-color: #fef2f2;
+  color: #991b1b;
+  border-left-color: var(--danger-color);
 }
 
 .medical-alert.critical {
   border-color: var(--danger-color);
   background-color: #fef2f2;
+  color: #991b1b;
   font-weight: 600;
+  border-left-color: var(--danger-color);
 }
 
 /* Species cards with professional styling */
@@ -177,6 +186,20 @@ h3 {
   font-size: 1.3rem;
 }
 
+.species-card h4 a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.species-card h4 a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.species-card p {
+  color: var(--text-color);
+}
+
 .species-meta {
   background-color: var(--background-light);
   padding: 1rem;
@@ -184,7 +207,8 @@ h3 {
   margin: 1rem 0;
   font-family: 'Courier New', monospace;
   font-size: 0.95rem;
-  color: var(--text-light);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
 
 /* Index entries styling */
@@ -202,6 +226,20 @@ h3 {
   color: var(--primary-color);
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.5rem;
+}
+
+.index-entry h3 a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.index-entry h3 a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.index-entry p {
+  color: var(--text-color);
 }
 
 .read-more {
@@ -317,6 +355,9 @@ th {
   background: var(--background);
   border-left: 3px solid var(--accent-color);
   border-radius: 0 4px 4px 0;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-color);
 }
 
 /* Navigation buttons */
