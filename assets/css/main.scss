@@ -8,13 +8,14 @@
   --primary-color: #1a365d;
   --secondary-color: #2c5282;
   --accent-color: #3182ce;
-  --warning-color: #d69e2e;
-  --danger-color: #e53e3e;
-  --success-color: #38a169;
-  --text-color: #2d3748;
+  --warning-color: #b45309;
+  --danger-color: #991b1b;
+  --success-color: #166534;
+  --text-color: #1a202c;
   --text-light: #4a5568;
   --background: #ffffff;
   --background-light: #f7fafc;
+  --background-accent: #edf2f7;
   --border-color: #e2e8f0;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -59,10 +60,11 @@ h3 {
 
 /* Professional header with medical styling */
 .site-header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-  color: white;
+  background: var(--background-accent);
+  color: var(--text-color);
   padding: 2rem 0;
   box-shadow: var(--shadow-lg);
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .site-header .wrapper {
@@ -76,12 +78,13 @@ h3 {
   font-weight: 700;
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
+  color: var(--primary-color);
 }
 
 .site-subtitle {
   font-size: 1.1rem;
   margin: 0.5rem 0 0 0;
-  opacity: 0.9;
+  color: var(--text-light);
   font-style: italic;
 }
 
@@ -99,16 +102,19 @@ h3 {
 }
 
 .site-nav a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.3s ease;
   font-weight: 500;
+  border: 1px solid var(--border-color);
 }
 
 .site-nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--background);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Main content area */
@@ -158,23 +164,20 @@ h3 {
 }
 
 .medical-alert.warning {
-  border-color: var(--warning-color);
-  background-color: #fffbeb;
-  color: #744210;
+  background-color: #fef3c7;
+  color: var(--warning-color);
   border-left-color: var(--warning-color);
 }
 
 .medical-alert.danger {
-  border-color: var(--danger-color);
-  background-color: #fef2f2;
-  color: #991b1b;
+  background-color: #fee2e2;
+  color: var(--danger-color);
   border-left-color: var(--danger-color);
 }
 
 .medical-alert.critical {
-  border-color: var(--danger-color);
-  background-color: #fef2f2;
-  color: #991b1b;
+  background-color: #fee2e2;
+  color: var(--danger-color);
   font-weight: 600;
   border-left-color: var(--danger-color);
 }
@@ -274,16 +277,18 @@ h3 {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
-  background: var(--accent-color);
-  color: white;
+  background: var(--background);
+  color: var(--accent-color);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  border: 2px solid var(--accent-color);
 }
 
 .read-more:hover {
-  background: var(--secondary-color);
+  background: var(--accent-color);
+  color: var(--background);
 }
 
 /* Species entry styling */
@@ -294,26 +299,28 @@ h3 {
   border-radius: 8px;
   box-shadow: var(--shadow-lg);
   overflow: hidden;
+  border: 1px solid var(--border-color);
 }
 
 .species-header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-  color: white;
+  background: var(--background-accent);
+  color: var(--text-color);
   padding: 2rem;
   text-align: center;
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .species-header h1 {
   margin: 0;
   border: none;
-  color: white;
+  color: var(--primary-color);
   font-size: 2.5rem;
 }
 
 .species-header .species-meta {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--background);
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
   font-weight: 600;
 }
 
@@ -339,10 +346,13 @@ h3 {
   align-items: center;
   gap: 0.5rem;
   padding: 1rem;
-  background: var(--background-light);
+  background: var(--background-accent);
   border-left: 4px solid var(--accent-color);
   border-radius: 0 4px 4px 0;
   margin: 2rem 0 1rem 0;
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-color);
 }
 
 /* Code and medical terminology */
@@ -422,34 +432,37 @@ th {
 .species-navigation a {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--accent-color);
-  color: white;
+  background: var(--background);
+  color: var(--accent-color);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  border: 2px solid var(--accent-color);
 }
 
 .species-navigation a:hover {
-  background: var(--secondary-color);
+  background: var(--accent-color);
+  color: var(--background);
 }
 
 /* Footer styling */
 .site-footer {
-  background: var(--primary-color);
-  color: white;
+  background: var(--background-accent);
+  color: var(--text-color);
   text-align: center;
   padding: 2rem;
   margin-top: 4rem;
+  border-top: 3px solid var(--accent-color);
 }
 
 .site-footer p {
-  color: white;
+  color: var(--text-color);
   margin: 0.5rem 0;
 }
 
 .site-footer em {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-light);
 }
 
 /* About page styling */
