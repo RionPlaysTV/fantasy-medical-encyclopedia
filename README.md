@@ -12,6 +12,9 @@ Currently documented species include:
 - **Humans** - Adaptable and magically variable
 - **Elves** - Magically sensitive with iron allergies  
 - **Dwarves** - Robust constitution and forge-related health concerns
+- **Fae** - Immortal magical beings with reality-altering abilities
+- **Dragons** - Ancient magical creatures with complex physiology
+- **Orcs** - Warrior culture with enhanced combat physiology
 - *(More species entries coming soon)*
 
 ## 🛠️ Built With
@@ -28,6 +31,9 @@ Currently documented species include:
 - **Jekyll** 4.3+
 - **Bundler** gem
 - **Git**
+- **VS Code Extensions** (recommended):
+  - Ruby LSP (Shopify.ruby-lsp) - Modern Ruby language support
+  - Jekyll Snippets - For Jekyll-specific code completion
 
 #### Installing Ruby and Jekyll on Windows:
 
