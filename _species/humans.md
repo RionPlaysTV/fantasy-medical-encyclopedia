@@ -24,7 +24,13 @@ Standard four-chambered heart with 60-100 bpm at rest. Single-lung breathing sys
 Most humans possess latent magical capacity (1-3% exhibit active abilities). Rare individuals show "null magic" immunity—both blessing and curse. Bloodlines mixed with other species often manifest: enhanced longevity (draconic), night vision (elven), or enhanced constitution (dwarven). Remarkably, human magical potential often increases near ley lines.
 
 **🧪 Healing Response:**  
-Excellent response to divine healing and standard healing potions. Moderate tolerance to alchemical treatments. **WARNING:** Humans metabolize enchanted substances 40% faster than elves—adjust dosages accordingly. Exceptional compatibility with magical prosthetics and healing crystals.
+Excellent response to divine healing and standard healing potions. Moderate tolerance to alchemical treatments. 
+
+<div class="medical-alert warning">
+<strong>⚠️ DOSAGE WARNING:</strong> Humans metabolize enchanted substances 40% faster than elves—adjust dosages accordingly.
+</div>
+
+Exceptional compatibility with magical prosthetics and healing crystals.
 
 **🥼 Crossbreeding Compatibility:**  
 Highly compatible with most humanoid species. Known viable crosses include:
@@ -53,6 +59,10 @@ Practices vary wildly by region. Common approaches include:
 
 *—Archmedicus Theren Goldleaf, Chief Healer of the Transcendental Medical College*
 
-**Clinical Observation:** Humans uniquely benefit from "hybrid" treatment approaches combining magical and mundane medicine. Always inquire about family magical history—dormant bloodlines can cause unexpected reactions to standard treatments.
+<div class="medical-alert">
+<strong>Clinical Observation:</strong> Humans uniquely benefit from "hybrid" treatment approaches combining magical and mundane medicine. Always inquire about family magical history—dormant bloodlines can cause unexpected reactions to standard treatments.
+</div>
 
-**Emergency Protocol:** For unconscious humans of unknown origin, assume moderate magical sensitivity and begin with minimal-dose healing potions while checking for signs of fae-touched or celestial heritage.
+<div class="medical-alert critical">
+<strong>🚨 Emergency Protocol:</strong> For unconscious humans of unknown origin, assume moderate magical sensitivity and begin with minimal-dose healing potions while checking for signs of fae-touched or celestial heritage.
+</div>

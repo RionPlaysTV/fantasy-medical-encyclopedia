@@ -23,9 +23,9 @@ navigation:
   - title: Home
     url: /
   - title: Species Index
-    url: /species/
+    url: /species
   - title: About
-    url: /about/
+    url: /about
 
 # Exclude from processing
 exclude:

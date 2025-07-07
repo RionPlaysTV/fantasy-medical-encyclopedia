@@ -3,6 +3,11 @@ layout: default
 title: "Species Index"
 ---
 
+---
+layout: default
+title: "Species Index"
+---
+
 # 📚 Complete Species Index
 
 Welcome to the comprehensive index of species documented in the Anatomica Fantastica archives. Each entry provides detailed medical, physiological, and cultural healing information essential for practitioners treating multispecies populations.
@@ -15,91 +20,48 @@ Welcome to the comprehensive index of species documented in the Anatomica Fantas
     <div class="index-entry">
       <h3><a href="{{ species.url | relative_url }}">{{ species.title }}</a></h3>
       {% if species.lifespan %}
-        <p><strong>Lifespan:</strong> {{ species.lifespan }}</p>
+        <div class="species-meta">
+          🧬 <strong>Lifespan:</strong> {{ species.lifespan }}
+        </div>
       {% endif %}
       <p>{{ species.excerpt | strip_html | truncatewords: 25 }}</p>
-      <a href="{{ species.url | relative_url }}" class="read-more">Read Full Entry →</a>
+      <a href="{{ species.url | relative_url }}" class="read-more">Read Full Medical Profile →</a>
     </div>
   {% endfor %}
 </div>
 
-## 🔍 Quick Reference Guide
+## 🔍 Quick Medical Reference Guide
 
-### By Lifespan
-- **Short-lived (Under 100 years):** Humans, Goblins, Orcs
-- **Medium-lived (100-500 years):** Dwarves, Halflings
-- **Long-lived (500+ years):** Elves, Fae, Dragons
+<div class="quick-reference">
+  <h4>By Lifespan Categories</h4>
+  <ul>
+    <li><strong>Short-lived (Under 100 years):</strong> Humans, Orcs</li>
+    <li><strong>Medium-lived (100-500 years):</strong> Dwarves</li>
+    <li><strong>Long-lived (500+ years):</strong> Elves</li>
+    <li><strong>Immortal:</strong> Fae, Dragons (conditional)</li>
+  </ul>
 
-### By Magical Sensitivity
-- **High Sensitivity:** Elves, Fae, Angels
-- **Moderate Sensitivity:** Humans, Beastkin
-- **Low Sensitivity:** Dwarves, Orcs
-- **Variable Sensitivity:** Dragons, Demons
+  <h4>By Magical Sensitivity</h4>
+  <ul>
+    <li><strong>High Sensitivity:</strong> Elves, Fae</li>
+    <li><strong>Moderate Sensitivity:</strong> Humans</li>
+    <li><strong>Low Sensitivity:</strong> Dwarves, Orcs</li>
+    <li><strong>Reality-Altering:</strong> Dragons, Fae</li>
+  </ul>
 
-### Emergency Treatment Priorities
-1. **Iron Sensitivity:** Elves, Fae
-2. **High Dosage Requirements:** Dwarves, Giants, Orcs  
-3. **Magical Interaction Risks:** Dragons, Demons, Angels
-4. **Crossbreeding Complications:** All hybrid species
+  <h4>Emergency Treatment Priorities</h4>
+  <ul>
+    <li><strong>Iron Sensitivity:</strong> Elves, Fae - Remove all iron instruments immediately</li>
+    <li><strong>High Dosage Requirements:</strong> Dwarves (50% increase), Orcs (150% increase)</li>
+    <li><strong>Magical Interaction Risks:</strong> Dragons, Fae - Obtain explicit consent before magical healing</li>
+    <li><strong>Cultural Considerations:</strong> All species - Respect traditional healing practices</li>
+  </ul>
+</div>
 
-## 📖 Using This Archive
-
-Each species entry follows a standardized format for quick reference:
-- **Lifespan & Physical Characteristics**
-- **Cardiovascular & Respiratory Systems**
-- **Common Ailments & Vulnerabilities**
-- **Magical Anomalies & Adaptations**
-- **Healing Response Protocols**
-- **Crossbreeding Medical Notes**
-- **Known Allergies & Toxins**
-- **Cultural Medical Practices**
-- **Clinical Observations & Emergency Protocols**
+<div class="medical-alert critical">
+  <strong>🚨 Emergency Protocol:</strong> When treating unknown or hybrid species, begin with minimal magical intervention and observe patient response. Always inquire about species heritage and known allergies before treatment.
+</div>
 
 ---
 
-*For emergency situations, refer to the individual species emergency protocols. When in doubt, begin with minimal magical intervention and observe patient response.*
-
-<style>
-.species-index {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.index-entry {
-  border: 1px solid #e1e5e9;
-  padding: 1.5rem;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.index-entry h3 {
-  margin-top: 0;
-  color: #0366d6;
-}
-
-.index-entry h3 a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.index-entry h3 a:hover {
-  text-decoration: underline;
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: #f1f3f4;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-
-.read-more:hover {
-  background: #e1e5e9;
-}
-</style>
+*For detailed emergency protocols and species-specific treatment guidelines, refer to individual species medical profiles. When in doubt, consult the Transcendental Medical College emergency hotline.*

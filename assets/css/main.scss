@@ -1,0 +1,396 @@
+---
+---
+
+/* Anatomica Fantastica - Official Medical Encyclopedia Styling */
+
+/* CSS Variables for consistent theming */
+:root {
+  --primary-color: #1a365d;
+  --secondary-color: #2c5282;
+  --accent-color: #3182ce;
+  --warning-color: #d69e2e;
+  --danger-color: #e53e3e;
+  --success-color: #38a169;
+  --text-color: #2d3748;
+  --text-light: #4a5568;
+  --background: #ffffff;
+  --background-light: #f7fafc;
+  --border-color: #e2e8f0;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Base Typography */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+}
+
+/* Headers with medical journal styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--accent-color);
+}
+
+/* Professional header with medical styling */
+.site-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem 0;
+  box-shadow: var(--shadow-lg);
+}
+
+.site-header .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.site-subtitle {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0 0;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Navigation styling */
+.site-nav {
+  margin-top: 1.5rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main content area */
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* Medical alert boxes */
+.medical-alert {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+  border-radius: 0 4px 4px 0;
+  background-color: var(--background-light);
+}
+
+.medical-alert.warning {
+  border-color: var(--warning-color);
+  background-color: #fffbeb;
+}
+
+.medical-alert.danger {
+  border-color: var(--danger-color);
+  background-color: #fef2f2;
+}
+
+.medical-alert.critical {
+  border-color: var(--danger-color);
+  background-color: #fef2f2;
+  font-weight: 600;
+}
+
+/* Species cards with professional styling */
+.species-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.species-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.species-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.species-card h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.species-card h4 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+.species-meta {
+  background-color: var(--background-light);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+}
+
+/* Index entries styling */
+.index-entry {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+}
+
+.index-entry h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background: var(--secondary-color);
+}
+
+/* Species entry styling */
+.species-entry {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--background);
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.species-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.species-header h1 {
+  margin: 0;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.species-content {
+  padding: 2rem;
+}
+
+/* Medical section headers with icons */
+.species-content h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--background-light);
+  border-left: 4px solid var(--accent-color);
+  border-radius: 0 4px 4px 0;
+  margin: 2rem 0 1rem 0;
+}
+
+/* Code and medical terminology */
+code {
+  background-color: var(--background-light);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: var(--primary-color);
+}
+
+/* Tables for medical data */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* Quick reference sections */
+.quick-reference {
+  background: var(--background-light);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.quick-reference h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.quick-reference ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-reference li {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  background: var(--background);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 0 4px 4px 0;
+}
+
+/* Navigation buttons */
+.species-navigation {
+  text-align: center;
+  padding: 2rem;
+  background: var(--background-light);
+  border-top: 1px solid var(--border-color);
+}
+
+.species-navigation a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.species-navigation a:hover {
+  background: var(--secondary-color);
+}
+
+/* Footer styling */
+.site-footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .site-header .wrapper {
+    padding: 0 1rem;
+  }
+  
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .page-content {
+    padding: 2rem 1rem;
+  }
+  
+  .species-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .species-header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Print styles for official documentation */
+@media print {
+  .site-header, .site-nav, .species-navigation, .site-footer {
+    display: none;
+  }
+  
+  .species-entry {
+    box-shadow: none;
+    border: 1px solid #000;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}
