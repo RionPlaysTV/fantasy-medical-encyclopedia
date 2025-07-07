@@ -21,6 +21,24 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+/* Dark mode variables - inverted colors */
+[data-theme="dark"] {
+  --primary-color: #90cdf4;
+  --secondary-color: #63b3ed;
+  --accent-color: #4299e1;
+  --warning-color: #fbbf24;
+  --danger-color: #f87171;
+  --success-color: #34d399;
+  --text-color: #e2e8f0;
+  --text-light: #a0aec0;
+  --background: #1a202c;
+  --background-light: #2d3748;
+  --background-accent: #4a5568;
+  --border-color: #4a5568;
+  --shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
+}
+
 /* Base Typography */
 body {
   font-family: 'Georgia', 'Times New Roman', serif;
@@ -485,6 +503,60 @@ th {
 
 .species-index p {
   color: var(--text-color);
+}
+
+/* Dark mode toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: var(--accent-color);
+  color: var(--background);
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  background: var(--secondary-color);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .medical-alert.warning {
+  background-color: #451a03;
+  color: var(--warning-color);
+}
+
+[data-theme="dark"] .medical-alert.danger {
+  background-color: #450a0a;
+  color: var(--danger-color);
+}
+
+[data-theme="dark"] .medical-alert.critical {
+  background-color: #450a0a;
+  color: var(--danger-color);
+}
+
+[data-theme="dark"] th {
+  background: var(--primary-color);
+  color: var(--background);
+}
+
+[data-theme="dark"] code {
+  background-color: var(--background-accent);
+  color: var(--primary-color);
 }
 
 /* Responsive design */
