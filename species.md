@@ -53,11 +53,11 @@ Welcome to the comprehensive index of species documented in the Anatomica Fantas
 
 <div class="quick-reference">
   <ul>
-    <li><strong>🐱 Felidae Beastkin:</strong> Cat-based subspecies with enhanced reflexes, night vision, and territorial behaviors</li>
-    <li><strong>🐺 Canidae Beastkin:</strong> Wolf and dog-based subspecies with pack dynamics and loyalty-based healing</li>
-    <li><strong>🐻 Ursidae Beastkin:</strong> Bear-based subspecies with seasonal hibernation and massive strength adaptations</li>
-    <li><strong>🦅 Aves Beastkin:</strong> Bird-based subspecies with flight capabilities and altitude-specific physiology</li>
-    <li><strong>🐍 Reptilia Beastkin:</strong> Reptile-based subspecies with temperature-dependent metabolism and regenerative healing</li>
+    <li><strong>🐱 Feline Beastkin:</strong> Cat-based subspecies with enhanced reflexes, night vision, and territorial behaviors</li>
+    <li><strong>🐺 Canine Beastkin:</strong> Wolf and dog-based subspecies with pack dynamics and loyalty-based healing</li>
+    <li><strong>🐻 Ursine Beastkin:</strong> Bear-based subspecies with seasonal hibernation and massive strength adaptations</li>
+    <li><strong>🦅 Avian Beastkin:</strong> Bird-based subspecies with flight capabilities and altitude-specific physiology</li>
+    <li><strong>🐍 Reptilian Beastkin:</strong> Reptile-based subspecies with temperature-dependent metabolism and regenerative healing</li>
   </ul>
 </div>
 
@@ -89,8 +89,8 @@ Welcome to the comprehensive index of species documented in the Anatomica Fantas
   <h4>By Lifespan Categories</h4>
   <ul>
     <li><strong>Short-lived (Under 100 years):</strong> Humans, Orcs, Most Beastkin (60-120 years)</li>
-    <li><strong>Medium-lived (100-500 years):</strong> Dwarves, Aves Beastkin (80-150 years), Trolls (200-400 years)</li>
-    <li><strong>Long-lived (500+ years):</strong> Elves, Reptilia Beastkin (150-300 years)</li>
+    <li><strong>Medium-lived (100-500 years):</strong> Dwarves, Avian Beastkin (80-150 years), Trolls (200-400 years)</li>
+    <li><strong>Long-lived (500+ years):</strong> Elves, Reptilian Beastkin (150-300 years)</li>
     <li><strong>Ancient (1000+ years):</strong> Dragons (1000-5000 years)</li>
     <li><strong>Immortal:</strong> Fae, Dragons (conditional immortality)</li>
   </ul>
@@ -98,7 +98,7 @@ Welcome to the comprehensive index of species documented in the Anatomica Fantas
   <h4>By Magical Sensitivity</h4>
   <ul>
     <li><strong>Reality-Altering:</strong> Dragons, Fae</li>
-    <li><strong>High Sensitivity:</strong> Elves, Fae, Aves Beastkin</li>
+    <li><strong>High Sensitivity:</strong> Elves, Fae, Avian Beastkin</li>
     <li><strong>Moderate Sensitivity:</strong> Humans, Most Beastkin</li>
     <li><strong>Low Sensitivity:</strong> Dwarves, Orcs</li>
     <li><strong>Magical Resistance:</strong> Trolls (regeneration-based), Dragons (ancient immunity)</li>
@@ -106,35 +106,35 @@ Welcome to the comprehensive index of species documented in the Anatomica Fantas
 
   <h4>Special Physiological Considerations</h4>
   <ul>
-    <li><strong>Temperature-Dependent:</strong> Reptilia Beastkin (require 75-80°F), Ice Trolls (cold-adapted)</li>
+    <li><strong>Temperature-Dependent:</strong> Reptilian Beastkin (require 75-80°F), Ice Trolls (cold-adapted)</li>
     <li><strong>Transformation Capable:</strong> All Beastkin subspecies, some advanced magical humanoids</li>
-    <li><strong>Regenerative:</strong> Trolls (advanced), Reptilia Beastkin (limited), Dragons (magical)</li>
-    <li><strong>Pack/Social Dependent:</strong> Canidae Beastkin, some Troll subspecies</li>
-    <li><strong>Seasonal Cycles:</strong> Ursidae Beastkin (hibernation), Aves Beastkin (migration), Forest Trolls</li>
+    <li><strong>Regenerative:</strong> Trolls (advanced), Reptilian Beastkin (limited), Dragons (magical)</li>
+    <li><strong>Pack/Social Dependent:</strong> Canine Beastkin, some Troll subspecies</li>
+    <li><strong>Seasonal Cycles:</strong> Ursine Beastkin (hibernation), Avian Beastkin (migration), Forest Trolls</li>
   </ul>
 
   <h4>Critical Vulnerabilities</h4>
   <ul>
-    <li><strong>Fire Vulnerability:</strong> ALL Troll subspecies (permanent damage), Aves Beastkin (panic response)</li>
+    <li><strong>Fire Vulnerability:</strong> ALL Troll subspecies (permanent damage), Avian Beastkin (panic response)</li>
     <li><strong>Iron Sensitivity:</strong> Elves, Fae - Remove all iron instruments immediately</li>
-    <li><strong>Cold Vulnerability:</strong> Reptilia Beastkin (hypothermia risk below 60°F)</li>
-    <li><strong>Toxic Substances:</strong> Chocolate (Canidae/Felidae Beastkin), Valerian (Felidae)</li>
+    <li><strong>Cold Vulnerability:</strong> Reptilian Beastkin (hypothermia risk below 60°F)</li>
+    <li><strong>Toxic Substances:</strong> Chocolate (Canine/Feline Beastkin), Valerian (Feline)</li>
     <li><strong>Magical Disruption:</strong> Beastkin transformation states, Dragon magical fields</li>
   </ul>
 
   <h4>Dosage Adjustments Required</h4>
   <ul>
     <li><strong>Massive Increase (500-1000x):</strong> Dragons</li>
-    <li><strong>High Increase (200-300%):</strong> Aves Beastkin, Large Troll subspecies</li>
+    <li><strong>High Increase (200-300%):</strong> Avian Beastkin, Large Troll subspecies</li>
     <li><strong>Moderate Increase (150-200%):</strong> Orcs, Most Beastkin, Mountain Trolls</li>
     <li><strong>Standard Increase (125-150%):</strong> Dwarves</li>
-    <li><strong>Temperature Dependent:</strong> Reptilia Beastkin (varies with body temperature)</li>
+    <li><strong>Temperature Dependent:</strong> Reptilian Beastkin (varies with body temperature)</li>
   </ul>
 
   <h4>Emergency Treatment Priorities</h4>
   <ul>
     <li><strong>🔥 FIRE PROTOCOLS:</strong> Immediate suppression for ALL Troll patients - fire damage is permanent</li>
-    <li><strong>🌡️ TEMPERATURE CRITICAL:</strong> Maintain 75-80°F for Reptilia Beastkin - hypothermia is lethal</li>
+    <li><strong>🌡️ TEMPERATURE CRITICAL:</strong> Maintain 75-80°F for Reptilian Beastkin - hypothermia is lethal</li>
     <li><strong>⚡ TRANSFORMATION EMERGENCY:</strong> Clear 10-foot radius around transforming Beastkin - never restrain</li>
     <li><strong>🐉 DRAGON APPROACH:</strong> Diplomatic contact before medical intervention - hostile dragons are unsurvivable</li>
     <li><strong>🧲 IRON REMOVAL:</strong> Elves, Fae - Remove all iron instruments immediately</li>

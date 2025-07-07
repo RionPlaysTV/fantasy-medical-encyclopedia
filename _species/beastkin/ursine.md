@@ -1,10 +1,10 @@
 ---
-title: "Ursidae Beastkin"
+title: "Ursine Beastkin"
 layout: species
 lifespan: "120-180 years"
 ---
 
-# 🐻 Ursidae Beastkin
+# 🐻 Ursine Beastkin
 *Homo therianthropis ursidae*
 
 <div class="species-meta">
@@ -12,7 +12,7 @@ Lifespan: 120-180 years | Height: 6'0"-8'2" | Weight: 200-450 lbs
 Classification: Ursine Therianthropes | Threat Level: Peaceful (Extremely dangerous when threatened)
 </div>
 
-Ursidae Beastkin are among the most physically imposing and longest-lived of all Beastkin subspecies. Their incredible strength, seasonal physiology, and natural healing abilities make them formidable both as patients and healers. Their medicine is deeply connected to seasonal cycles and hibernation patterns.
+Ursine Beastkin are among the most physically imposing and longest-lived of all Beastkin subspecies. Their incredible strength, seasonal physiology, and natural healing abilities make them formidable both as patients and healers. Their medicine is deeply connected to seasonal cycles and hibernation patterns.
 
 ## 🧬 Subspecies Variations
 
@@ -73,7 +73,7 @@ Ursidae Beastkin are among the most physically imposing and longest-lived of all
 ## 🫀 Cardiovascular System
 
 ### Hibernation Adaptations
-The Ursidae cardiovascular system shows remarkable seasonal variations:
+The Ursine cardiovascular system shows remarkable seasonal variations:
 
 **Active Season** (Spring/Summer/Fall):
 - **Heart rate**: 60-100 BPM
@@ -140,7 +140,7 @@ The Ursidae cardiovascular system shows remarkable seasonal variations:
 ## ✨ Magical Interactions
 
 ### Hibernation Magic
-Ursidae Beastkin's hibernation involves natural magical processes:
+Ursine Beastkin's hibernation involves natural magical processes:
 
 - **Time magic**: Hibernation can be extended or shortened with temporal spells
 - **Healing magic**: Enhanced effectiveness during hibernation state
@@ -159,7 +159,7 @@ Ursidae Beastkin's hibernation involves natural magical processes:
 - **Haste magic**: Dangerous metabolic acceleration, avoid during hibernation prep
 
 <div class="medical-alert danger">
-🚨 **Hibernation Emergency**: Never use awakening magic on hibernating Ursidae without life-threatening cause. Forced awakening can cause permanent cardiac damage.
+🚨 **Hibernation Emergency**: Never use awakening magic on hibernating Ursine without life-threatening cause. Forced awakening can cause permanent cardiac damage.
 </div>
 
 ## 🧪 Pharmaceutical Considerations
@@ -289,13 +289,13 @@ Ursidae Beastkin's hibernation involves natural magical processes:
 
 ## 📓 Scholar's Notes
 
-*Ursidae Beastkin have taught me patience like no other species. Their seasonal rhythms cannot be rushed or forced - attempting to do so can be fatal. I've learned to work with their natural cycles rather than against them.*
+*Ursine Beastkin have taught me patience like no other species. Their seasonal rhythms cannot be rushed or forced - attempting to do so can be fatal. I've learned to work with their natural cycles rather than against them.*
 
-*The hibernation process is truly remarkable. I've observed Ursidae patients heal from serious injuries during hibernation that would have taken months to recover from in active state. The metabolic slowdown seems to redirect energy toward healing and regeneration.*
+*The hibernation process is truly remarkable. I've observed Ursine patients heal from serious injuries during hibernation that would have taken months to recover from in active state. The metabolic slowdown seems to redirect energy toward healing and regeneration.*
 
-*Their strength is both impressive and terrifying. I once watched an Ursidae patient accidentally crush a stone examination table simply by gripping it too tightly while nervous. They require specialized equipment and careful handling procedures.*
+*Their strength is both impressive and terrifying. I once watched an Ursine patient accidentally crush a stone examination table simply by gripping it too tightly while nervous. They require specialized equipment and careful handling procedures.*
 
-*The territorial aspects of their psychology are crucial to understand. An Ursidae forced to hibernate in unfamiliar territory may never properly enter dormancy, leading to potentially fatal exhaustion.*
+*The territorial aspects of their psychology are crucial to understand. An Ursine forced to hibernate in unfamiliar territory may never properly enter dormancy, leading to potentially fatal exhaustion.*
 
 *— Healer Thorin Ironpaw, Seasonal Medicine Specialist*
 
@@ -308,10 +308,10 @@ Ursidae Beastkin's hibernation involves natural magical processes:
 
 ### Cultural Integration
 
-Ursidae communities often share hibernation sites and have complex social structures around seasonal care. Their medicine emphasizes seasonal harmony and communal preparation for dormancy periods.
+Ursine communities often share hibernation sites and have complex social structures around seasonal care. Their medicine emphasizes seasonal harmony and communal preparation for dormancy periods.
 
 <div class="medical-alert">
-📋 **Cultural Awareness**: Hibernation sites are sacred to Ursidae communities. Medical intervention during hibernation requires community elder approval except in life-threatening emergencies.
+📋 **Cultural Awareness**: Hibernation sites are sacred to Ursine communities. Medical intervention during hibernation requires community elder approval except in life-threatening emergencies.
 </div>
 
 ## Quick Reference Seasonal Emergency Kit

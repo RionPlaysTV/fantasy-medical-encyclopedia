@@ -1,10 +1,10 @@
 ---
-title: "Reptilia Beastkin"
+title: "Reptilian Beastkin"
 layout: species
 lifespan: "150-300 years"
 ---
 
-# 🐍 Reptilia Beastkin
+# 🐍 Reptilian Beastkin
 *Homo therianthropis reptilia*
 
 <div class="species-meta">

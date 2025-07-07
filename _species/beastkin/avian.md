@@ -1,10 +1,10 @@
 ---
-title: "Aves Beastkin"
+title: "Avian Beastkin"
 layout: species
 lifespan: "80-150 years"
 ---
 
-# 🦅 Aves Beastkin
+# 🦅 Avian Beastkin
 *Homo therianthropis aves*
 
 <div class="species-meta">

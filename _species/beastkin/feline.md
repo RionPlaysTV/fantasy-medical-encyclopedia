@@ -1,10 +1,10 @@
 ---
-title: "Felidae Beastkin"
+title: "Feline Beastkin"
 layout: species
 lifespan: "80-120 years"
 ---
 
-# 🐱 Felidae Beastkin
+# 🐱 Feline Beastkin
 *Homo therianthropis felidae*
 
 <div class="species-meta">

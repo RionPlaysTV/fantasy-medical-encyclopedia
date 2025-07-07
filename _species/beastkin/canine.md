@@ -1,10 +1,10 @@
 ---
-title: "Canidae Beastkin"
+title: "Canine Beastkin"
 layout: species
 lifespan: "70-100 years"
 ---
 
-# 🐺 Canidae Beastkin
+# 🐺 Canine Beastkin
 *Homo therianthropis canidae*
 
 <div class="species-meta">
