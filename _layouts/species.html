@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<article class="species-entry">
+  <header class="species-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.lifespan %}
+      <div class="species-meta">
+        <span class="lifespan">🧬 Lifespan: {{ page.lifespan }}</span>
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="species-content">
+    {{ content }}
+  </div>
+
+  <nav class="species-navigation">
+    <a href="{{ '/species/' | relative_url }}">&larr; Back to Species Index</a>
+  </nav>
+</article>
+
+<style>
+.species-entry {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.species-header {
+  border-bottom: 2px solid #e1e5e9;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.species-meta {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.species-content h2 {
+  border-left: 4px solid #0366d6;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.species-content h3 {
+  color: #0366d6;
+}
+
+.species-navigation {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e5e9;
+}
+
+.species-navigation a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #f1f3f4;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.species-navigation a:hover {
+  background: #e1e5e9;
+}
+</style>

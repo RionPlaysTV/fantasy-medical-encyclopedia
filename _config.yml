@@ -1,0 +1,38 @@
+# Site settings
+title: "Anatomica Fantastica: The Multispecies Medical Archive"
+description: "A comprehensive medical encyclopedia for fantasy species across the multiverse"
+baseurl: "/fantasy-medical-encyclopedia" # Replace with your repository name
+url: "https://yourusername.github.io" # Replace with your GitHub username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  species:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Species Index
+    url: /species/
+  - title: About
+    url: /about/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
